@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#efefef, #ff0000);
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bg {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/reba.jpeg);
+    background-size: 100% auto;
+    filter: blur(2px) brightness(60%);
+    border-radius: 50%;
+}
+#clock {
+    position: absolute;
+    border-radius: 50%;
+}
